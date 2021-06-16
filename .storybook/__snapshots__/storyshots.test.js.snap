@@ -2409,7 +2409,7 @@ exports[` Storyshots Features/ConfirmSwap EthToDai 1`] = `
       >
         <img
           onError={[Function]}
-          src="test-file-stub"
+          src="https://mycryptoapi.com/api/v1/images/356a192b-7913-504c-9457-4d18c28d46e6.png"
         />
       </div>
       <div
@@ -2446,7 +2446,7 @@ exports[` Storyshots Features/ConfirmSwap EthToDai 1`] = `
       >
         <img
           onError={[Function]}
-          src="test-file-stub"
+          src="https://mycryptoapi.com/api/v1/images/e1f698bf-cb85-5405-b563-14774af14bf1.png"
         />
       </div>
       <div
@@ -2509,7 +2509,7 @@ exports[` Storyshots Features/ConfirmSwap EthToDai 1`] = `
           >
             <img
               onError={[Function]}
-              src="test-file-stub"
+              src="https://mycryptoapi.com/api/v1/images/356a192b-7913-504c-9457-4d18c28d46e6.png"
             />
           </div>
           <span
@@ -2580,7 +2580,7 @@ exports[` Storyshots Features/ConfirmSwap EthToDai 1`] = `
           >
             <img
               onError={[Function]}
-              src="test-file-stub"
+              src="https://mycryptoapi.com/api/v1/images/356a192b-7913-504c-9457-4d18c28d46e6.png"
             />
           </div>
           <span
@@ -2654,7 +2654,7 @@ exports[` Storyshots Features/ConfirmSwap EthToDai 1`] = `
           >
             <img
               onError={[Function]}
-              src="test-file-stub"
+              src="https://mycryptoapi.com/api/v1/images/356a192b-7913-504c-9457-4d18c28d46e6.png"
             />
           </div>
           <span
@@ -2754,7 +2754,7 @@ exports[` Storyshots Features/ConfirmSwapMultiTx Dai To Eth 1`] = `
       >
         <img
           onError={[Function]}
-          src="test-file-stub"
+          src="https://mycryptoapi.com/api/v1/images/e1f698bf-cb85-5405-b563-14774af14bf1.png"
         />
       </div>
       <div
@@ -2791,7 +2791,7 @@ exports[` Storyshots Features/ConfirmSwapMultiTx Dai To Eth 1`] = `
       >
         <img
           onError={[Function]}
-          src="test-file-stub"
+          src="https://mycryptoapi.com/api/v1/images/356a192b-7913-504c-9457-4d18c28d46e6.png"
         />
       </div>
       <div
@@ -2992,7 +2992,7 @@ exports[` Storyshots Features/ConfirmSwapMultiTx Dai To Eth Step 2 1`] = `
       >
         <img
           onError={[Function]}
-          src="test-file-stub"
+          src="https://mycryptoapi.com/api/v1/images/e1f698bf-cb85-5405-b563-14774af14bf1.png"
         />
       </div>
       <div
@@ -3029,7 +3029,7 @@ exports[` Storyshots Features/ConfirmSwapMultiTx Dai To Eth Step 2 1`] = `
       >
         <img
           onError={[Function]}
-          src="test-file-stub"
+          src="https://mycryptoapi.com/api/v1/images/356a192b-7913-504c-9457-4d18c28d46e6.png"
         />
       </div>
       <div
@@ -3397,7 +3397,7 @@ exports[` Storyshots Features/ConfirmTx ConfirmTransaction 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -3468,7 +3468,7 @@ exports[` Storyshots Features/ConfirmTx ConfirmTransaction 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -3542,7 +3542,7 @@ exports[` Storyshots Features/ConfirmTx ConfirmTransaction 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -3934,7 +3934,7 @@ exports[` Storyshots Features/ConfirmTx ConfirmTxDefiZap 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/2783a9ff-d6f1-5c9e-bbab-3b74be91adb1.png"
               />
             </div>
             <span
@@ -4005,7 +4005,7 @@ exports[` Storyshots Features/ConfirmTx ConfirmTxDefiZap 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -4079,7 +4079,7 @@ exports[` Storyshots Features/ConfirmTx ConfirmTxDefiZap 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/2783a9ff-d6f1-5c9e-bbab-3b74be91adb1.png"
               />
             </div>
             <span
@@ -4493,7 +4493,7 @@ exports[` Storyshots Features/ConfirmTx ConfirmTxMembership 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/2783a9ff-d6f1-5c9e-bbab-3b74be91adb1.png"
               />
             </div>
             <span
@@ -4564,7 +4564,7 @@ exports[` Storyshots Features/ConfirmTx ConfirmTxMembership 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -4638,7 +4638,7 @@ exports[` Storyshots Features/ConfirmTx ConfirmTxMembership 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/2783a9ff-d6f1-5c9e-bbab-3b74be91adb1.png"
               />
             </div>
             <span
@@ -4935,7 +4935,7 @@ exports[` Storyshots Features/ConfirmTx ConfirmTxPtx 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -5006,7 +5006,7 @@ exports[` Storyshots Features/ConfirmTx ConfirmTxPtx 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -5080,7 +5080,7 @@ exports[` Storyshots Features/ConfirmTx ConfirmTxPtx 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -5186,7 +5186,7 @@ exports[` Storyshots Features/ConfirmTx ConfirmTxPtx 1`] = `
               >
                 <img
                   onError={[Function]}
-                  src="test-file-stub"
+                  src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
                 />
               </div>
               <span
@@ -5257,7 +5257,7 @@ exports[` Storyshots Features/ConfirmTx ConfirmTxPtx 1`] = `
               >
                 <img
                   onError={[Function]}
-                  src="test-file-stub"
+                  src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
                 />
               </div>
               <span
@@ -5602,7 +5602,7 @@ exports[` Storyshots Features/ConfirmTx ConfirmTxToken 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/2783a9ff-d6f1-5c9e-bbab-3b74be91adb1.png"
               />
             </div>
             <span
@@ -5673,7 +5673,7 @@ exports[` Storyshots Features/ConfirmTx ConfirmTxToken 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -5747,7 +5747,7 @@ exports[` Storyshots Features/ConfirmTx ConfirmTxToken 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/2783a9ff-d6f1-5c9e-bbab-3b74be91adb1.png"
               />
             </div>
             <span
@@ -5855,7 +5855,7 @@ exports[` Storyshots Features/MultiTxReceipt Swap Tx Receipt 1`] = `
         >
           <img
             onError={[Function]}
-            src="test-file-stub"
+            src="https://mycryptoapi.com/api/v1/images/e1f698bf-cb85-5405-b563-14774af14bf1.png"
           />
         </div>
         <div
@@ -5892,7 +5892,7 @@ exports[` Storyshots Features/MultiTxReceipt Swap Tx Receipt 1`] = `
         >
           <img
             onError={[Function]}
-            src="test-file-stub"
+            src="https://mycryptoapi.com/api/v1/images/356a192b-7913-504c-9457-4d18c28d46e6.png"
           />
         </div>
         <div
@@ -6002,7 +6002,7 @@ exports[` Storyshots Features/MultiTxReceipt Swap Tx Receipt 1`] = `
               >
                 <img
                   onError={[Function]}
-                  src="test-file-stub"
+                  src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
                 />
               </div>
               <span
@@ -6074,7 +6074,7 @@ exports[` Storyshots Features/MultiTxReceipt Swap Tx Receipt 1`] = `
               >
                 <img
                   onError={[Function]}
-                  src="test-file-stub"
+                  src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
                 />
               </div>
               <span
@@ -6148,7 +6148,7 @@ exports[` Storyshots Features/MultiTxReceipt Swap Tx Receipt 1`] = `
               >
                 <img
                   onError={[Function]}
-                  src="test-file-stub"
+                  src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
                 />
               </div>
               <span
@@ -6286,7 +6286,7 @@ exports[` Storyshots Features/MultiTxReceipt Token Migration Tx Receipt 1`] = `
         >
           <img
             onError={[Function]}
-            src="test-file-stub"
+            src="https://mycryptoapi.com/api/v1/images/e1f698bf-cb85-5405-b563-14774af14bf1.png"
           />
         </div>
         <div
@@ -6323,7 +6323,7 @@ exports[` Storyshots Features/MultiTxReceipt Token Migration Tx Receipt 1`] = `
         >
           <img
             onError={[Function]}
-            src="test-file-stub"
+            src="https://mycryptoapi.com/api/v1/images/356a192b-7913-504c-9457-4d18c28d46e6.png"
           />
         </div>
         <div
@@ -6433,7 +6433,7 @@ exports[` Storyshots Features/MultiTxReceipt Token Migration Tx Receipt 1`] = `
               >
                 <img
                   onError={[Function]}
-                  src="test-file-stub"
+                  src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
                 />
               </div>
               <span
@@ -6505,7 +6505,7 @@ exports[` Storyshots Features/MultiTxReceipt Token Migration Tx Receipt 1`] = `
               >
                 <img
                   onError={[Function]}
-                  src="test-file-stub"
+                  src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
                 />
               </div>
               <span
@@ -6579,7 +6579,7 @@ exports[` Storyshots Features/MultiTxReceipt Token Migration Tx Receipt 1`] = `
               >
                 <img
                   onError={[Function]}
-                  src="test-file-stub"
+                  src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
                 />
               </div>
               <span
@@ -6761,7 +6761,7 @@ exports[` Storyshots Features/MultiTxReceipt Token Migration Tx Receipt 1`] = `
               >
                 <img
                   onError={[Function]}
-                  src="test-file-stub"
+                  src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
                 />
               </div>
               <span
@@ -6833,7 +6833,7 @@ exports[` Storyshots Features/MultiTxReceipt Token Migration Tx Receipt 1`] = `
               >
                 <img
                   onError={[Function]}
-                  src="test-file-stub"
+                  src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
                 />
               </div>
               <span
@@ -6907,7 +6907,7 @@ exports[` Storyshots Features/MultiTxReceipt Token Migration Tx Receipt 1`] = `
               >
                 <img
                   onError={[Function]}
-                  src="test-file-stub"
+                  src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
                 />
               </div>
               <span
@@ -10738,7 +10738,7 @@ exports[` Storyshots Features/TxReceipt TxReceipt 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -10810,7 +10810,7 @@ exports[` Storyshots Features/TxReceipt TxReceipt 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -10884,7 +10884,7 @@ exports[` Storyshots Features/TxReceipt TxReceipt 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -11354,7 +11354,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptDeFiZap 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/2783a9ff-d6f1-5c9e-bbab-3b74be91adb1.png"
               />
             </div>
             <span
@@ -11426,7 +11426,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptDeFiZap 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -11500,7 +11500,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptDeFiZap 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/2783a9ff-d6f1-5c9e-bbab-3b74be91adb1.png"
               />
             </div>
             <span
@@ -11953,7 +11953,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptFaucet 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/2783a9ff-d6f1-5c9e-bbab-3b74be91adb1.png"
               />
             </div>
             <span
@@ -12025,7 +12025,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptFaucet 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -12099,7 +12099,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptFaucet 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/2783a9ff-d6f1-5c9e-bbab-3b74be91adb1.png"
               />
             </div>
             <span
@@ -12551,7 +12551,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptMembership 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/2783a9ff-d6f1-5c9e-bbab-3b74be91adb1.png"
               />
             </div>
             <span
@@ -12623,7 +12623,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptMembership 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -12697,7 +12697,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptMembership 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/2783a9ff-d6f1-5c9e-bbab-3b74be91adb1.png"
               />
             </div>
             <span
@@ -13099,7 +13099,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptPending 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -13171,7 +13171,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptPending 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -13245,7 +13245,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptPending 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -13694,7 +13694,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptSwap 1`] = `
         >
           <img
             onError={[Function]}
-            src="test-file-stub"
+            src="https://mycryptoapi.com/api/v1/images/356a192b-7913-504c-9457-4d18c28d46e6.png"
           />
         </div>
         <div
@@ -13731,7 +13731,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptSwap 1`] = `
         >
           <img
             onError={[Function]}
-            src="test-file-stub"
+            src="https://mycryptoapi.com/api/v1/images/d017a1e8-bdd3-5c32-8866-da258f75b0e9.png"
           />
         </div>
         <div
@@ -13794,7 +13794,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptSwap 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/2783a9ff-d6f1-5c9e-bbab-3b74be91adb1.png"
               />
             </div>
             <span
@@ -13866,7 +13866,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptSwap 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -13940,7 +13940,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptSwap 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/2783a9ff-d6f1-5c9e-bbab-3b74be91adb1.png"
               />
             </div>
             <span
@@ -14369,7 +14369,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptToken 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/2783a9ff-d6f1-5c9e-bbab-3b74be91adb1.png"
               />
             </div>
             <span
@@ -14441,7 +14441,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptToken 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
               />
             </div>
             <span
@@ -14515,7 +14515,7 @@ exports[` Storyshots Features/TxReceipt TxReceiptToken 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/2783a9ff-d6f1-5c9e-bbab-3b74be91adb1.png"
               />
             </div>
             <span
@@ -14915,7 +14915,7 @@ exports[` Storyshots Molecules/Amount WithIcon 1`] = `
     >
       <img
         onError={[Function]}
-        src="test-file-stub"
+        src="https://mycryptoapi.com/api/v1/images/356a192b-7913-504c-9457-4d18c28d46e6.png"
       />
     </div>
     <span
@@ -14963,7 +14963,7 @@ exports[` Storyshots Molecules/AmountInput With Placeholder 1`] = `
     >
       <img
         onError={[Function]}
-        src="test-file-stub"
+        src="https://mycryptoapi.com/api/v1/images/356a192b-7913-504c-9457-4d18c28d46e6.png"
       />
     </div>
     <span
@@ -14997,7 +14997,7 @@ exports[` Storyshots Molecules/AmountInput With Text 1`] = `
     >
       <img
         onError={[Function]}
-        src="test-file-stub"
+        src="https://mycryptoapi.com/api/v1/images/356a192b-7913-504c-9457-4d18c28d46e6.png"
       />
     </div>
     <span
@@ -15225,7 +15225,7 @@ exports[` Storyshots Molecules/Currency Default State 1`] = `
     >
       <img
         onError={[Function]}
-        src="test-file-stub"
+        src="https://mycryptoapi.com/api/v1/images/dummy_id.png"
       />
     </div>
     <span
@@ -15259,7 +15259,7 @@ exports[` Storyshots Molecules/Currency Default State 1`] = `
     >
       <img
         onError={[Function]}
-        src="test-file-stub"
+        src="https://mycryptoapi.com/api/v1/images/dummy_id.png"
       />
     </div>
     <span
@@ -15293,7 +15293,7 @@ exports[` Storyshots Molecules/Currency Default State 1`] = `
     >
       <img
         onError={[Function]}
-        src="test-file-stub"
+        src="https://mycryptoapi.com/api/v1/images/dummy_id.png"
       />
     </div>
     <span
@@ -16663,7 +16663,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
         >
           <img
             onError={[Function]}
-            src="test-file-stub"
+            src="https://mycryptoapi.com/api/v1/images/fe5dbbce-a5ce-5e29-88b8-c69bcfdfde89.png"
           />
         </div>
         <p
@@ -16688,7 +16688,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
         >
           <img
             onError={[Function]}
-            src="test-file-stub"
+            src="https://mycryptoapi.com/api/v1/images/fe5dbbce-a5ce-5e29-88b8-c69bcfdfde89.png"
           />
         </div>
         <p
@@ -16889,7 +16889,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/356a192b-7913-504c-9457-4d18c28d46e6.png"
                         />
                       </div>
                       <p
@@ -16917,7 +16917,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/77de68da-ecd8-53ba-bbb5-8edb1c8e14d7.png"
                         />
                       </div>
                       <p
@@ -16945,7 +16945,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/92cfceb3-9d57-5914-ad8b-14d0e37643de.png"
                         />
                       </div>
                       <p
@@ -16973,7 +16973,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/1b645389-2473-5467-9073-72d45eb05abc.png"
                         />
                       </div>
                       <p
@@ -17001,7 +17001,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/ac3478d6-9a3c-51fa-a2e6-0f5c3696165a.png"
                         />
                       </div>
                       <p
@@ -17029,7 +17029,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/6c1e671f-9af5-546d-9c1a-52067bdf0e53.png"
                         />
                       </div>
                       <p
@@ -17057,7 +17057,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/fe5dbbce-a5ce-5e29-88b8-c69bcfdfde89.png"
                         />
                       </div>
                       <p
@@ -17085,7 +17085,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/da4b9237-bacc-5df1-9c07-60cab7aec4a8.png"
                         />
                       </div>
                       <p
@@ -17113,7 +17113,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/9a79be61-1e02-57e1-9943-da0737c6c51b.png"
                         />
                       </div>
                       <p
@@ -17141,7 +17141,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/b37f6ddc-efad-5e86-9783-7d3177f9ef24.png"
                         />
                       </div>
                       <p
@@ -17169,7 +17169,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/d017a1e8-bdd3-5c32-8866-da258f75b0e9.png"
                         />
                       </div>
                       <p
@@ -17197,7 +17197,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/3dcbc269-fa47-5707-b180-4cb0ba6e5cdf.png"
                         />
                       </div>
                       <p
@@ -17225,7 +17225,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/1c77b322-a88c-57cc-b956-78c2bc17c360.png"
                         />
                       </div>
                       <p
@@ -17253,7 +17253,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/7f4d2f19-9a76-5930-b63b-ac9b0afe6201.png"
                         />
                       </div>
                       <p
@@ -17281,7 +17281,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/310b86e0-b62b-5285-a2fc-91c7be5380a9.png"
                         />
                       </div>
                       <p
@@ -17309,7 +17309,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/54ceb912-56e8-590e-874a-a752a6e0650a.png"
                         />
                       </div>
                       <p
@@ -17337,7 +17337,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/e1f698bf-cb85-5405-b563-14774af14bf1.png"
                         />
                       </div>
                       <p
@@ -17365,7 +17365,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                       >
                         <img
                           onError={[Function]}
-                          src="test-file-stub"
+                          src="https://mycryptoapi.com/api/v1/images/2783a9ff-d6f1-5c9e-bbab-3b74be91adb1.png"
                         />
                       </div>
                       <p
@@ -17450,7 +17450,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                     >
                       <img
                         onError={[Function]}
-                        src="test-file-stub"
+                        src="https://mycryptoapi.com/api/v1/images/356a192b-7913-504c-9457-4d18c28d46e6.png"
                       />
                     </div>
                     <p
@@ -20014,7 +20014,7 @@ exports[` Storyshots Organisms/BalanceDetailsTable Desktop 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/f7e30bbe-08e2-41ce-9231-5236e6aab702.png"
               />
             </div>
             <span
@@ -20163,7 +20163,7 @@ exports[` Storyshots Organisms/BalanceDetailsTable Desktop 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/12d3cbf2-de3a-4050-a0c6-521592e4b85a.png"
               />
             </div>
             <span
@@ -20312,7 +20312,7 @@ exports[` Storyshots Organisms/BalanceDetailsTable Desktop 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/01f2d4ec-c263-6ba8-de38-01d66c86f309.png"
               />
             </div>
             <span
@@ -20461,7 +20461,7 @@ exports[` Storyshots Organisms/BalanceDetailsTable Desktop 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/10e14757-78bb-4bb2-a17a-8333830f6698.png"
               />
             </div>
             <span
@@ -20954,7 +20954,7 @@ exports[` Storyshots Organisms/BalanceDetailsTable Mobile 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/f7e30bbe-08e2-41ce-9231-5236e6aab702.png"
               />
             </div>
             <span
@@ -21078,7 +21078,7 @@ exports[` Storyshots Organisms/BalanceDetailsTable Mobile 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/12d3cbf2-de3a-4050-a0c6-521592e4b85a.png"
               />
             </div>
             <span
@@ -21202,7 +21202,7 @@ exports[` Storyshots Organisms/BalanceDetailsTable Mobile 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/01f2d4ec-c263-6ba8-de38-01d66c86f309.png"
               />
             </div>
             <span
@@ -21326,7 +21326,7 @@ exports[` Storyshots Organisms/BalanceDetailsTable Mobile 1`] = `
             >
               <img
                 onError={[Function]}
-                src="test-file-stub"
+                src="https://mycryptoapi.com/api/v1/images/10e14757-78bb-4bb2-a17a-8333830f6698.png"
               />
             </div>
             <span

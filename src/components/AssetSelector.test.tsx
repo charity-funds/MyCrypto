@@ -102,7 +102,7 @@ function getComponentItem({
 describe('AssetSelectorItem', () => {
   test('it renders the asset icon', async () => {
     const { getByRole } = getComponentItem(itemProps);
-    expect(getByRole('img').getAttribute('src')).toContain('test-file-stub');
+    expect(getByRole('img').getAttribute('src')).toContain('https://mycryptoapi.com/api/v1/images');
   });
 
   test('it displays the asset ticker and name', async () => {
