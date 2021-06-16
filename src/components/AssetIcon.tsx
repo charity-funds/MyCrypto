@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { MYC_API } from '@config';
-import { getCoinGeckoAssetManifest, useSelector } from '@store';
 import { TUuid } from '@types';
 
 import Box from './Box';
@@ -13,11 +12,6 @@ function buildUrl(uuid: TUuid) {
   return `${baseURL}/${uuid}.png`;
 }
 
-function getIconUrl(uuid: TUuid, assetIconsManifest: Record<string, string>) {
-  const assetIconExists = assetIconsManifest && !!assetIconsManifest[uuid];
-  return assetIconExists ? buildUrl(uuid) : getSVGIcon('generic-asset-icon');
-}
-
 interface Props {
   uuid: TUuid;
   size?: string;
@@ -25,8 +19,7 @@ interface Props {
 }
 
 const AssetIcon = ({ uuid, size, ...props }: Props & React.ComponentProps<typeof Box>) => {
-  const coinGeckoAssetManifest = useSelector(getCoinGeckoAssetManifest);
-  const iconUrl = getIconUrl(uuid, coinGeckoAssetManifest);
+  const iconUrl = buildUrl(uuid);
 
   // Replace src in the eventuality the server fails to reply with the requested icon.
   const handleError = (event: React.SyntheticEvent<HTMLImageElement, Event>) => {
