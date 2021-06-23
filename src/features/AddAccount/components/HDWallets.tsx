@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { FormEvent, useEffect, useState } from 'react';
 
 import styled from 'styled-components';
 
@@ -281,7 +281,7 @@ export function HDWalletsClass({
     }
   };
 
-  const handleChangeCustomPath = (ev: React.FormEvent<HTMLInputElement>) =>
+  const handleChangeCustomPath = (ev: FormEvent<HTMLInputElement>) =>
     setCustomPath(ev.currentTarget.value);
 
   const handleSubmitCustomPath = () => {

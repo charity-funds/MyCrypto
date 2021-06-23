@@ -1,5 +1,3 @@
-import React from 'react';
-
 import ExtendedContentPanel from '@components/ExtendedContentPanel';
 import { LEDGER_DERIVATION_PATHS } from '@config';
 import { fAssets, fDWAccounts, fNetworks } from '@fixtures';

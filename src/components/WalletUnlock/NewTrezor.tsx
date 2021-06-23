@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import prop from 'ramda/src/prop';
 import uniqBy from 'ramda/src/uniqBy';
