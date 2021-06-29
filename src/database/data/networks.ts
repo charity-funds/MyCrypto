@@ -64,7 +64,8 @@ export const NETWORKS_CONFIG: NetworkConfig = {
       [WalletId.LEDGER_NANO_S_NEW]: DPaths.ETH_LEDGER,
       default: DPaths.ETH_TESTNET
     },
-    gasPriceSettings: GAS_PRICE_TESTNET
+    gasPriceSettings: GAS_PRICE_TESTNET,
+    supportsEIP1559: true
   },
   Kovan: {
     id: 'Kovan',

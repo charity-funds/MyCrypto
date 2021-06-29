@@ -1,4 +1,3 @@
-import { AccessListish } from '@ethersproject/transactions';
 import { Brand } from 'utility-types';
 
 import { IMembershipConfig } from '@features/PurchaseMembership/config';
@@ -41,20 +40,14 @@ export interface ILegacyTxObject extends IBaseTxObject {
   readonly gasPrice: ITxGasPrice;
 }
 
-export interface ITxType1Object extends IBaseTxObject {
-  readonly accessList?: AccessListish;
-  readonly type: 1;
-}
-
 // @todo Rename?
 export interface ITxType2Object extends IBaseTxObject {
   readonly maxFeePerGas: ITxGasPrice;
   readonly maxPriorityFeePerGas: ITxGasPrice;
-  readonly accessList?: AccessListish;
   readonly type: 2;
 }
 
-export type ITxObject = ILegacyTxObject | ITxType1Object | ITxType2Object;
+export type ITxObject = ILegacyTxObject | ITxType2Object;
 
 export interface ITxConfig {
   readonly rawTransaction: ITxObject /* The rawTransaction object that will be signed */;
@@ -88,6 +81,8 @@ export interface IFormikFields {
   network: INetwork;
   advancedTransaction: boolean;
   isAutoGasSet: boolean;
+  maxGasFeePerGasField: string;
+  maxPriorityFeePerGasField: string;
 }
 
 export interface ISignComponentProps {
