@@ -38,7 +38,13 @@ import {
   getTransactionReceiptFromHash,
   ProviderHandler
 } from '@services/EthService';
-import { getStoreAccount, useAccounts, useContacts, useSettings } from '@services/Store';
+import {
+  getStoreAccount,
+  useAccounts,
+  useContacts,
+  useNetworks,
+  useSettings
+} from '@services/Store';
 import { getStoreAccounts, useSelector } from '@store';
 import { BREAK_POINTS, COLORS } from '@theme';
 import translate, { translateRaw } from '@translations';
@@ -115,12 +121,14 @@ const TxReceipt = ({
   const { assets } = useAssets();
   const accounts = useSelector(getStoreAccounts);
   const { settings } = useSettings();
+  const { getNetworkById } = useNetworks();
   const [txStatus, setTxStatus] = useState(
     txReceipt ? txReceipt.status : (ITxStatus.PENDING as ITxHistoryStatus)
   );
   const [displayTxReceipt, setDisplayTxReceipt] = useState<ITxReceipt | undefined>(txReceipt);
   const [blockNumber, setBlockNumber] = useState(0);
   const [timestamp, setTimestamp] = useState(0);
+  const network = getNetworkById(txConfig.networkId);
 
   // Imported in this way to handle errors where the context is missing, f.x. in Swap Flow
   const { state: ptxState } = useContext(ProtectTxContext);
@@ -133,7 +141,7 @@ const TxReceipt = ({
 
   useEffect(() => {
     if (displayTxReceipt && blockNumber === 0 && displayTxReceipt.hash) {
-      const provider = new ProviderHandler(txConfig.network);
+      const provider = new ProviderHandler(network);
       const blockNumInterval = setInterval(() => {
         getTransactionReceiptFromHash(displayTxReceipt.hash, provider).then(
           (transactionOutcome) => {
@@ -165,7 +173,7 @@ const TxReceipt = ({
   });
   useEffect(() => {
     if (displayTxReceipt && timestamp === 0 && blockNumber !== 0) {
-      const provider = new ProviderHandler(txConfig.network);
+      const provider = new ProviderHandler(network);
       const timestampInterval = setInterval(() => {
         getTimestampFromBlockNum(blockNumber, provider).then((transactionTimestamp) => {
           if (txReceipt && txReceipt.txType === ITxType.FAUCET) {
@@ -212,7 +220,7 @@ const TxReceipt = ({
 
   const handleTxSpeedUpRedirect = async () => {
     if (!txConfig) return;
-    const { fast } = await fetchGasPriceEstimates(txConfig.network);
+    const { fast } = await fetchGasPriceEstimates(network);
     const query = constructSpeedUpTxQuery(
       txConfig,
       calculateReplacementGasPrice(txConfig, bigify(fast))
@@ -222,7 +230,7 @@ const TxReceipt = ({
 
   const handleTxCancelRedirect = async () => {
     if (!txConfig) return;
-    const { fast } = await fetchGasPriceEstimates(txConfig.network);
+    const { fast } = await fetchGasPriceEstimates(network);
     const query = constructCancelTxQuery(
       txConfig,
       calculateReplacementGasPrice(txConfig, bigify(fast))
@@ -232,25 +240,16 @@ const TxReceipt = ({
 
   const sender = constructSenderFromTxConfig(txConfig, accounts);
 
-  const senderContact = getContactByAddressAndNetworkId(sender.address, txConfig.network.id);
+  const senderContact = getContactByAddressAndNetworkId(sender.address, network.id);
 
-  const recipientContact = getContactByAddressAndNetworkId(
-    txConfig.receiverAddress,
-    txConfig.network.id
-  );
+  const recipientContact = getContactByAddressAndNetworkId(txConfig.receiverAddress, network.id);
 
   const contractName = (() => {
-    const contact = getContactByAddressAndNetworkId(
-      txConfig.rawTransaction.to,
-      txConfig.network.id
-    );
+    const contact = getContactByAddressAndNetworkId(txConfig.rawTransaction.to, network.id);
     if (contact) {
       return contact.label;
     }
-    const asset = getAssetByContractAndNetwork(
-      txConfig.rawTransaction.to,
-      txConfig.network
-    )(assets);
+    const asset = getAssetByContractAndNetwork(txConfig.rawTransaction.to, network)(assets);
     return asset && asset.name;
   })();
 
@@ -285,6 +284,7 @@ const TxReceipt = ({
       handleTxCancelRedirect={handleTxCancelRedirect}
       handleTxSpeedUpRedirect={handleTxSpeedUpRedirect}
       txType={txType}
+      network={network}
     />
   );
 };
@@ -311,6 +311,7 @@ export interface TxReceiptDataProps {
   completeButton?: string | (() => JSX.Element);
   protectTxButton?(): JSX.Element;
   customComponent?(): JSX.Element;
+  network: Network;
 }
 
 type UIProps = Omit<IStepComponentProps, 'resetFlow' | 'onComplete'> & TxReceiptDataProps;
@@ -339,18 +340,11 @@ export const TxReceiptUI = ({
   handleTxSpeedUpRedirect,
   protectTxEnabled = false,
   queryStringsDisabled = false,
-  protectTxButton
+  protectTxButton,
+  network
 }: UIProps) => {
-  const {
-    asset,
-    gasPrice,
-    gasLimit,
-    data,
-    nonce,
-    baseAsset,
-    receiverAddress,
-    rawTransaction
-  } = txConfig;
+  const { asset, baseAsset, receiverAddress, rawTransaction } = txConfig;
+  const { data, gasLimit, nonce } = rawTransaction;
 
   const walletConfig = getWalletConfig(sender.account ? sender.account.wallet : WalletId.VIEW_ONLY);
   const web3Wallet = isWeb3Wallet(walletConfig.id);
@@ -471,11 +465,11 @@ export const TxReceiptUI = ({
               {translate('TX_HASH')}
               {': '}
               <Body as="span" fontWeight="normal">
-                {displayTxReceipt && txConfig.network && txConfig.network.blockExplorer && (
+                {displayTxReceipt && network && network.blockExplorer && (
                   <Box display="inline-flex" variant="rowAlign" color={COLORS.BLUE_GREY}>
                     <Text as="span">{truncate(displayTxReceipt.hash)}</Text>
                     <LinkApp
-                      href={buildTxUrl(txConfig.network.blockExplorer, displayTxReceipt.hash)}
+                      href={buildTxUrl(network.blockExplorer, displayTxReceipt.hash)}
                       isExternal={true}
                       variant="opacityLink"
                       display="inline-flex"
