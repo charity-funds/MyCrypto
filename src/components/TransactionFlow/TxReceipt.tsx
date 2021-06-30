@@ -398,7 +398,7 @@ export const TxReceiptUI = ({
         </div>
       )}
       <FromToAccount
-        networkId={sender.network.id}
+        networkId={sender.networkId}
         fromAccount={{
           address: (sender.address || (displayTxReceipt && displayTxReceipt.from)) as TAddress,
           addressBookEntry: senderContact
@@ -434,7 +434,7 @@ export const TxReceiptUI = ({
         assetRate={assetRate}
         baseAssetRate={baseAssetRate}
         settings={settings}
-        gasPrice={gasPrice}
+        rawTransaction={rawTransaction}
         gasUsed={gasAmount()}
         value={rawTransaction.value}
       />

@@ -88,7 +88,7 @@ export default function MultiTxReceipt({
       {transactions.map((transaction, idx) => {
         const step = steps[idx];
         const { asset, baseAsset, amount } = transactionsConfigs[idx];
-        const { gasPrice, gasLimit, data, nonce, value, to } = transaction.txRaw;
+        const { gasLimit, data, nonce, value, to } = transaction.txRaw;
         const gasUsed =
           transaction.txReceipt && transaction.txReceipt.gasUsed
             ? transaction.txReceipt.gasUsed.toString()
@@ -133,7 +133,7 @@ export default function MultiTxReceipt({
               assetRate={assetRate}
               baseAssetRate={baseAssetRate}
               settings={settings}
-              gasPrice={gasPrice}
+              rawTransaction={transaction.txRaw}
               gasUsed={gasUsed}
               value={value}
             />
@@ -169,7 +169,6 @@ export default function MultiTxReceipt({
                 data={data}
                 sender={account}
                 gasLimit={bigNumGasLimitToViewable(bigify(gasLimit))}
-                gasPrice={bigify(gasPrice).toString()}
                 nonce={bigify(nonce).toString()}
                 rawTransaction={transaction.txRaw}
                 value={value}
