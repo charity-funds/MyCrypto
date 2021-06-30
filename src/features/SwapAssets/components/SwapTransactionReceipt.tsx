@@ -6,7 +6,7 @@ import { MultiTxReceipt, TxReceipt } from '@components/TransactionFlow';
 import { SwapFromToDiagram } from '@components/TransactionFlow/displays';
 import { getFiat } from '@config/fiats';
 import { makeTxConfigFromTxResponse, makeTxItem } from '@helpers';
-import { useAssets, useRates, useSettings } from '@services';
+import { useAssets, useNetworks, useRates, useSettings } from '@services';
 import { getAccountsAssets, useSelector } from '@store';
 import { translateRaw } from '@translations';
 import { ITxType, StoreAccount, TxParcel } from '@types';
@@ -31,6 +31,7 @@ export default function SwapTransactionReceipt({
   const { getAssetByUUID, assets } = useAssets();
   const { settings } = useSettings();
   const { getAssetRate } = useRates();
+  const { getNetworkById } = useNetworks();
   const swapDisplay: SwapDisplayData = pick(
     ['fromAsset', 'toAsset', 'fromAmount', 'toAmount'],
     assetPair
@@ -53,7 +54,9 @@ export default function SwapTransactionReceipt({
 
   const txReceipts = txItems.map(({ txReceipt }) => txReceipt);
 
-  const baseAsset = getAssetByUUID(txItems[0].txConfig.network.baseAsset)!;
+  const network = getNetworkById(txItems[0].txConfig.networkId);
+
+  const baseAsset = getAssetByUUID(network.baseAsset)!;
 
   const baseAssetRate = getAssetRate(baseAsset);
 
