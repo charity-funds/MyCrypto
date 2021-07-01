@@ -505,6 +505,7 @@ export const TxReceiptUI = ({
           status={txStatus}
           timestamp={timestamp}
           recipient={rawTransaction.to}
+          network={network}
         />
       </div>
       {completeButton && !(txStatus === ITxStatus.PENDING) && (

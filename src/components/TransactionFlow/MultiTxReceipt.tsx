@@ -178,6 +178,7 @@ export default function MultiTxReceipt({
                 status={status}
                 timestamp={timestamp}
                 recipient={to}
+                network={network}
               />
             </div>
           </div>
