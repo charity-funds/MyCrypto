@@ -25,6 +25,7 @@ module.exports = {
     'babel-plugin-styled-components',
     '@babel/plugin-proposal-class-properties',
     '@babel/plugin-proposal-object-rest-spread',
+    '@babel/plugin-proposal-private-methods',
     '@babel/plugin-syntax-dynamic-import',
     // Fix warnings with TS "export '...' was not found in '...' "
     // https: //github.com/webpack-contrib/imports-loader/issues/68#issuecomment-528788909
