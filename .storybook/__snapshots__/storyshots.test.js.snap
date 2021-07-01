@@ -1388,6 +1388,12 @@ exports[` Storyshots Features/AddorEditNetworkNode AddNetworkNode 1`] = `
                     className=" css-2b097c-container"
                     onKeyDown={[Function]}
                   >
+                    <span
+                      aria-atomic="false"
+                      aria-live="polite"
+                      aria-relevant="additions text"
+                      className="css-1f43avz-a11yText-A11yText"
+                    />
                     <div
                       className=" css-r290gg-control"
                       onMouseDown={[Function]}
@@ -1833,6 +1839,12 @@ exports[` Storyshots Features/AddorEditNetworkNode EditNetworkNode 1`] = `
                     className=" css-14jk2my-container"
                     onKeyDown={[Function]}
                   >
+                    <span
+                      aria-atomic="false"
+                      aria-live="polite"
+                      aria-relevant="additions text"
+                      className="css-1f43avz-a11yText-A11yText"
+                    />
                     <div
                       className=" css-1b572dm-control"
                       onMouseDown={[Function]}
@@ -1842,7 +1854,7 @@ exports[` Storyshots Features/AddorEditNetworkNode EditNetworkNode 1`] = `
                         className=" css-11st0zx-ValueContainer"
                       >
                         <div
-                          className="css-15rv5im-Input"
+                          className="css-goan6e-Input"
                         >
                           <div
                             className=""
@@ -15060,6 +15072,12 @@ exports[` Storyshots Molecules/ContractLookupField Default State 1`] = `
         className=" css-2b097c-container"
         onKeyDown={[Function]}
       >
+        <span
+          aria-atomic="false"
+          aria-live="polite"
+          aria-relevant="additions text"
+          className="css-1f43avz-a11yText-A11yText"
+        />
         <div
           className=" css-ag9uht-control"
           onMouseDown={[Function]}
@@ -15430,6 +15448,12 @@ exports[` Storyshots Molecules/GeneralLookupField Default State 1`] = `
         className=" css-2b097c-container"
         onKeyDown={[Function]}
       >
+        <span
+          aria-atomic="false"
+          aria-live="polite"
+          aria-relevant="additions text"
+          className="css-1f43avz-a11yText-A11yText"
+        />
         <div
           className=" css-ag9uht-control"
           onMouseDown={[Function]}
@@ -16432,6 +16456,12 @@ exports[` Storyshots Molecules/Selectors/AccountSelector Selector 1`] = `
         className=" css-2b097c-container"
         onKeyDown={[Function]}
       >
+        <span
+          aria-atomic="false"
+          aria-live="polite"
+          aria-relevant="additions text"
+          className="css-1f43avz-a11yText-A11yText"
+        />
         <div
           className=" css-ag9uht-control"
           onMouseDown={[Function]}
@@ -16534,6 +16564,12 @@ exports[` Storyshots Molecules/Selectors/AccountSelector Selector 1`] = `
         className=" css-2b097c-container"
         onKeyDown={[Function]}
       >
+        <span
+          aria-atomic="false"
+          aria-live="polite"
+          aria-relevant="additions text"
+          className="css-1f43avz-a11yText-A11yText"
+        />
         <div
           className=" css-ag9uht-control"
           onMouseDown={[Function]}
@@ -16739,6 +16775,12 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
               className=" css-2b097c-container"
               onKeyDown={[Function]}
             >
+              <span
+                aria-atomic="false"
+                aria-live="polite"
+                aria-relevant="additions text"
+                className="css-1f43avz-a11yText-A11yText"
+              />
               <div
                 className=" css-ag9uht-control"
                 onMouseDown={[Function]}
@@ -16754,7 +16796,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                   </div>
                   <input
                     aria-autocomplete="list"
-                    className="css-62g3xt-dummyInput"
+                    className="css-wmatm6-dummyInput-DummyInput"
                     disabled={false}
                     id="asset-selector"
                     onBlur={[Function]}
@@ -16821,6 +16863,12 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
               className=" css-2b097c-container"
               onKeyDown={[Function]}
             >
+              <span
+                aria-atomic="false"
+                aria-live="polite"
+                aria-relevant="additions text"
+                className="css-1f43avz-a11yText-A11yText"
+              />
               <div
                 className=" css-ag9uht-control"
                 onMouseDown={[Function]}
@@ -16836,7 +16884,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                   </div>
                   <input
                     aria-autocomplete="list"
-                    className="css-62g3xt-dummyInput"
+                    className="css-wmatm6-dummyInput-DummyInput"
                     disabled={false}
                     id="asset-selector"
                     onBlur={[Function]}
@@ -17417,6 +17465,12 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
               className=" css-2b097c-container"
               onKeyDown={[Function]}
             >
+              <span
+                aria-atomic="false"
+                aria-live="polite"
+                aria-relevant="additions text"
+                className="css-1f43avz-a11yText-A11yText"
+              />
               <div
                 className=" css-r290gg-control"
                 onMouseDown={[Function]}
@@ -17427,7 +17481,7 @@ exports[` Storyshots Molecules/Selectors/AssetSelector Selector 1`] = `
                 >
                   <input
                     aria-autocomplete="list"
-                    className="css-62g3xt-dummyInput"
+                    className="css-wmatm6-dummyInput-DummyInput"
                     disabled={false}
                     id="asset-selector"
                     onBlur={[Function]}
@@ -17543,6 +17597,12 @@ exports[` Storyshots Molecules/Selectors/MembershipSelector Selector 1`] = `
         className=" css-2b097c-container"
         onKeyDown={[Function]}
       >
+        <span
+          aria-atomic="false"
+          aria-live="polite"
+          aria-relevant="additions text"
+          className="css-1f43avz-a11yText-A11yText"
+        />
         <div
           className=" css-ag9uht-control"
           onMouseDown={[Function]}
@@ -17558,7 +17618,7 @@ exports[` Storyshots Molecules/Selectors/MembershipSelector Selector 1`] = `
             </div>
             <input
               aria-autocomplete="list"
-              className="css-62g3xt-dummyInput"
+              className="css-wmatm6-dummyInput-DummyInput"
               disabled={false}
               id="react-select-15-input"
               onBlur={[Function]}
@@ -17788,6 +17848,12 @@ exports[` Storyshots Molecules/Selectors/NetworkNodes Some networks 1`] = `
                 className=" css-2b097c-container"
                 onKeyDown={[Function]}
               >
+                <span
+                  aria-atomic="false"
+                  aria-live="polite"
+                  aria-relevant="additions text"
+                  className="css-1f43avz-a11yText-A11yText"
+                />
                 <div
                   className=" css-r290gg-control"
                   onMouseDown={[Function]}
@@ -17919,6 +17985,12 @@ exports[` Storyshots Molecules/Selectors/NetworkNodes Some networks 1`] = `
                 className=" css-2b097c-container"
                 onKeyDown={[Function]}
               >
+                <span
+                  aria-atomic="false"
+                  aria-live="polite"
+                  aria-relevant="additions text"
+                  className="css-1f43avz-a11yText-A11yText"
+                />
                 <div
                   className=" css-r290gg-control"
                   onMouseDown={[Function]}
@@ -18039,6 +18111,12 @@ exports[` Storyshots Molecules/Selectors/NetworkNodesDropdown Select 1`] = `
       className=" css-2b097c-container"
       onKeyDown={[Function]}
     >
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
       <div
         className=" css-r290gg-control"
         onMouseDown={[Function]}
@@ -18154,6 +18232,12 @@ exports[` Storyshots Molecules/Selectors/NetworkNodesDropdown Select with add 1`
       className=" css-2b097c-container"
       onKeyDown={[Function]}
     >
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
       <div
         className=" css-r290gg-control"
         onMouseDown={[Function]}
@@ -22430,6 +22514,12 @@ exports[` Storyshots Organisms/HDWallet HDWallet 1`] = `
                 className=" css-2b097c-container"
                 onKeyDown={[Function]}
               >
+                <span
+                  aria-atomic="false"
+                  aria-live="polite"
+                  aria-relevant="additions text"
+                  className="css-1f43avz-a11yText-A11yText"
+                />
                 <div
                   className=" css-r290gg-control"
                   onMouseDown={[Function]}
@@ -22556,6 +22646,12 @@ exports[` Storyshots Organisms/HDWallet HDWallet 1`] = `
               className=" css-2b097c-container"
               onKeyDown={[Function]}
             >
+              <span
+                aria-atomic="false"
+                aria-live="polite"
+                aria-relevant="additions text"
+                className="css-1f43avz-a11yText-A11yText"
+              />
               <div
                 className=" css-r290gg-control"
                 onMouseDown={[Function]}
@@ -22566,7 +22662,7 @@ exports[` Storyshots Organisms/HDWallet HDWallet 1`] = `
                 >
                   <input
                     aria-autocomplete="list"
-                    className="css-62g3xt-dummyInput"
+                    className="css-wmatm6-dummyInput-DummyInput"
                     disabled={false}
                     id="react-select-14-input"
                     onBlur={[Function]}
