@@ -4,9 +4,11 @@
     "value": "0x5af3107a4000",
     "data": "0x",
     "gasLimit": "0x5208",
-    "gasPrice": "0xee6b2800",
+    "maxFeePerGas": "0x4a817c800",
+    "maxPriorityFeePerGas": "0x3b9aca00",
     "nonce": "0x32",
-    "chainId": 3
+    "chainId": 3,
+    "type": 2
   },
   "amount": "0.0001",
   "senderAccount": {
