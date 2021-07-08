@@ -100,6 +100,7 @@ const SSpacer = styled.div`
 const TxReceipt = ({
   txReceipt,
   txConfig,
+  signedTx,
   txQueryType,
   completeButton,
   customComponent,
@@ -283,6 +284,7 @@ const TxReceipt = ({
       handleTxSpeedUpRedirect={handleTxSpeedUpRedirect}
       txType={txType}
       network={network}
+      signedTx={signedTx}
     />
   );
 };
@@ -318,6 +320,7 @@ export const TxReceiptUI = ({
   settings,
   txType,
   txConfig,
+  signedTx,
   txStatus,
   timestamp,
   assetRate,
@@ -503,6 +506,7 @@ export const TxReceiptUI = ({
           timestamp={timestamp}
           recipient={rawTransaction.to}
           network={network}
+          signedTransaction={signedTx}
         />
       </div>
       {completeButton && !(txStatus === ITxStatus.PENDING) && (
